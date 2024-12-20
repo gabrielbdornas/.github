@@ -18,16 +18,15 @@ body:
     id: descricao
     attributes:
       label: Descrição
-      description: Descreva seu Issue com o maior número de detalhes possíveis. 
-      placeholder: Encontrei o erro / Tive a ideia / Etc...
-    validations:
-      required: true
-  - type: textarea
-    id: atividades_correcoes
-    attributes:
-      label: Lista de atividades e/ou correções
-      description: Liste abaixo todas as atividades e/ou correções necessárias antes do fechamento do Issue.
+      description: |
+        Descreva seu Issue com o maior número de detalhes possíveis. 
+        Liste também, caso haja, todas as atividades e/ou correções necessárias antes do fechamento do Issue.      
       value: |
+
+        ## Lista de atividades e/ou correções
+        
         - [ ] Atividade/Correção 1
         - [ ] Atividade/Correção 2
         - [ ] Atividade/Correção 3
+    validations:
+      required: true
