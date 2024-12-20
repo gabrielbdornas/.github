@@ -23,7 +23,8 @@ body:
         Liste também, caso haja, todas as atividades e/ou correções necessárias antes do fechamento do Issue.      
       value: |
 
-        ## Lista de atividades e/ou correções
+
+        ### Lista de atividades e/ou correções
         
         - [ ] Atividade/Correção 1
         - [ ] Atividade/Correção 2
