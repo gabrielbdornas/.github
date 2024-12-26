@@ -29,5 +29,3 @@ body:
         - [ ] Atividade/Correção 1
         - [ ] Atividade/Correção 2
         - [ ] Atividade/Correção 3
-    validations:
-      required: true
